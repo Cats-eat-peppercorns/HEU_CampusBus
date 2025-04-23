@@ -1,0 +1,1 @@
+This document serves to commemorate the collaborative software development undertaken by myself (Zhuoyang Xue) and Jiangtao Dong during our undergraduate studies. This marks our first, and perhaps our last, joint creation. Through this repository, we aim to preserve the memory of this friendship.
