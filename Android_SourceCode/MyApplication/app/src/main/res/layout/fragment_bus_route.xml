@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/frameLayout2"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".fragment.BusRouteFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <TextView
+        android:id="@+id/userlocation_routeshow_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="我的位置"
+        android:textSize="23dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.344"
+        app:layout_constraintStart_toEndOf="@+id/userlocation_icon_iv"
+        app:layout_constraintTop_toTopOf="@+id/userlocation_icon_iv" />
+
+    <TextView
+        android:id="@+id/startstation_routeshow_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="起始站"
+        android:textSize="23dp"
+        app:layout_constraintStart_toStartOf="@+id/userlocation_routeshow_tv"
+        app:layout_constraintTop_toBottomOf="@+id/imageView2" />
+
+    <TextView
+        android:id="@+id/terminus_routeshow_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="终点站"
+        android:textSize="23dp"
+        app:layout_constraintStart_toStartOf="@+id/startstation_routeshow_tv"
+        app:layout_constraintTop_toBottomOf="@+id/imageView" />
+
+    <TextView
+        android:id="@+id/destination_routeshow_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:text="目的地"
+        android:textSize="23dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/terminus_routeshow_tv"
+        app:layout_constraintTop_toBottomOf="@+id/imageView3"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="10dp"
+        android:layout_height="0dp"
+        android:layout_above="@id/startStation_icon_iv"
+        android:layout_below="@id/userlocation_icon_iv"
+        android:background="#bfbfbf"
+        app:layout_constraintBottom_toTopOf="@+id/startStation_icon_iv"
+        app:layout_constraintEnd_toEndOf="@+id/userlocation_icon_iv"
+        app:layout_constraintStart_toStartOf="@+id/userlocation_icon_iv"
+        app:layout_constraintTop_toBottomOf="@+id/userlocation_icon_iv" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="10dp"
+        android:layout_height="0dp"
+        android:layout_above="@id/terminus_routeshow_tv"
+        android:layout_below="@id/destination_routeshow_tv"
+        android:background="#bfbfbf"
+        app:layout_constraintBottom_toTopOf="@+id/destination_icon_iv"
+        app:layout_constraintEnd_toEndOf="@+id/terminus_icon_tv"
+        app:layout_constraintStart_toStartOf="@+id/terminus_icon_tv"
+        app:layout_constraintTop_toBottomOf="@+id/terminus_icon_tv"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <ImageView
+        android:id="@+id/userlocation_icon_iv"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="30dp"
+        android:src="@drawable/userlocation"
+        app:layout_constraintBottom_toTopOf="@+id/startStation_icon_iv"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="10dp"
+        android:layout_height="0dp"
+        android:layout_above="@+id/startStation_icon_iv"
+        android:layout_below="@id/terminus_icon_tv"
+        android:background="#1296db"
+        app:layout_constraintBottom_toTopOf="@+id/terminus_icon_tv"
+        app:layout_constraintEnd_toEndOf="@+id/startStation_icon_iv"
+        app:layout_constraintStart_toStartOf="@+id/startStation_icon_iv"
+        app:layout_constraintTop_toBottomOf="@+id/startStation_icon_iv"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <ImageView
+        android:id="@+id/startStation_icon_iv"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_marginTop="128dp"
+        android:src="@drawable/station_icon"
+        app:layout_constraintEnd_toEndOf="@+id/userlocation_icon_iv"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/userlocation_icon_iv"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/terminus_icon_tv"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_marginTop="320dp"
+        android:src="@drawable/station_icon"
+        app:layout_constraintEnd_toEndOf="@+id/startStation_icon_iv"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/startStation_icon_iv"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/destination_icon_iv"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_marginBottom="272dp"
+        android:src="@drawable/destination_icon"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/terminus_icon_tv"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/distance_userToStart_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="步行约xxx米，预估xx分钟"
+        android:textSize="12dp"
+        app:layout_constraintBottom_toTopOf="@+id/startstation_routeshow_tv"
+        app:layout_constraintStart_toStartOf="@+id/userlocation_routeshow_tv"
+        app:layout_constraintTop_toBottomOf="@+id/userlocation_routeshow_tv" />
+
+    <TextView
+        android:id="@+id/distance_terminusToDestination_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="步行约xxx米，预估xx分钟"
+        android:textSize="12dp"
+        app:layout_constraintBottom_toTopOf="@+id/destination_routeshow_tv"
+        app:layout_constraintStart_toStartOf="@+id/terminus_routeshow_tv"
+        app:layout_constraintTop_toBottomOf="@+id/terminus_routeshow_tv" />
+
+    <TextView
+        android:id="@+id/distance_startToTerminus_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="行驶距离约xxx米，预估xx分钟"
+        android:textSize="12dp"
+        app:layout_constraintBottom_toTopOf="@+id/terminus_routeshow_tv"
+        app:layout_constraintEnd_toEndOf="@+id/startstation_routeshow_tv"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/startstation_routeshow_tv"
+        app:layout_constraintTop_toBottomOf="@+id/startstation_routeshow_tv"
+        app:layout_constraintVertical_bias="0.522" />
+
+    <Button
+        android:id="@+id/search_nearBus_btn"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:text="查看附近车辆"
+        android:textSize="25dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.511"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.745" />
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+
+    <EditText
+        android:id="@+id/routesearch_userlocation_ed"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:hint="我的位置"
+        android:textSize="25sp"
+        android:layout_weight="1"/>
+    <EditText
+        android:id="@+id/routesearch_destination_ed"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:hint="目的地"
+        android:textSize="25sp"
+        android:layout_weight="1"/>
+    <androidx.fragment.app.FragmentContainerView
+        android:id="@+id/routeSearch_page_fragment"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="12">
+    </androidx.fragment.app.FragmentContainerView>
+</androidx.appcompat.widget.LinearLayoutCompat>

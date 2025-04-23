@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="400dp"
+    android:orientation="vertical">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="60dp">
+
+        <ImageView
+            android:id="@+id/account_iv"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginStart="30dp"
+            android:src="@drawable/user_icon" />
+
+        <EditText
+            android:id="@+id/account_et"
+            android:layout_width="240dp"
+            android:layout_height="50dp"
+            android:layout_marginStart="20dp"
+            android:hint="账号"
+            android:paddingStart="10dp"
+            android:background="@drawable/text_bg"
+            android:inputType="number"
+            android:lines="1"
+            android:maxLength="15" />
+
+        <ImageView
+            android:id="@+id/accountDelete_iv"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:background="@drawable/delete_icon" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="20dp">
+
+        <ImageView
+            android:id="@+id/password_iv"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginStart="30dp"
+            android:src="@drawable/password_icon"/>
+
+        <EditText
+            android:id="@+id/password_et"
+            android:layout_width="240dp"
+            android:layout_height="50dp"
+            android:layout_marginStart="20dp"
+            android:hint="密码"
+            android:paddingStart="10dp"
+            android:background="@drawable/text_bg"
+            android:lines="1"
+            android:maxLength="15"
+            tools:ignore="Deprecated" />
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:id="@+id/passwordIsVisible_iv"
+            android:src="@drawable/pw_isvisible"
+            android:layout_marginEnd="30dp"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="60dp"
+        android:orientation="horizontal">
+        <Button
+            android:id="@+id/login_btn"
+            android:layout_width="160dp"
+            android:layout_height="50dp"
+            android:layout_marginStart="30dp"
+            android:background="@drawable/login_btn"
+            android:text="USER登录"
+            android:textSize="20sp" />
+        <Button
+            android:id="@+id/registerGo_btn"
+            android:layout_width="160dp"
+            android:layout_height="50dp"
+            android:layout_marginStart="40dp"
+            android:background="@drawable/login_btn"
+            android:text="USER注册"
+            android:textSize="20sp" />
+    </LinearLayout>
+</LinearLayout>

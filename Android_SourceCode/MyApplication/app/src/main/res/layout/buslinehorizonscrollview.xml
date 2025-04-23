@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="1000dp"
+    android:layout_height="200dp">
+    <HorizontalScrollView
+        android:id="@+id/busLineScrollview"
+        android:layout_width="wrap_content"
+        android:layout_height="200dp">
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+            <TextView
+                android:id="@+id/textTest"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="31号楼站"
+                android:textSize="20dp"
+                android:ems="1"
+                android:layout_marginRight="50dp"
+                android:background="@color/darkgray"
+                android:scrollHorizontally="true" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="41号楼站"
+                android:textSize="20dp"
+                android:ems="1"
+                android:layout_marginRight="50dp"
+                android:background="@color/darkgray"
+                android:scrollHorizontally="true" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="体育馆站"
+                android:textSize="20dp"
+                android:ems="1"
+                android:layout_marginRight="50dp"
+                android:background="@color/darkgray"
+                android:scrollHorizontally="true" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="北体站"
+                android:textSize="20dp"
+                android:ems="1"
+                android:layout_marginRight="50dp"
+                android:background="@color/darkgray"
+                android:scrollHorizontally="true" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="21B教学楼站"
+                android:textSize="20dp"
+                android:ems="1"
+                android:layout_marginRight="50dp"
+                android:background="@color/darkgray"
+                android:scrollHorizontally="true" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="理学楼站"
+                android:textSize="20dp"
+                android:ems="1"
+                android:layout_marginRight="50dp"
+                android:background="@color/darkgray"
+                android:scrollHorizontally="true" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="校医院站"
+                android:textSize="20dp"
+                android:ems="1"
+                android:layout_marginRight="50dp"
+                android:background="@color/darkgray"
+                android:scrollHorizontally="true" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="16公寓站"
+                android:textSize="20dp"
+                android:ems="1"
+                android:layout_marginRight="50dp"
+                android:background="@color/darkgray"
+                android:scrollHorizontally="true" />
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="20公寓站"
+                android:textSize="20dp"
+                android:ems="1"
+                android:layout_marginRight="50dp"
+                android:background="@color/darkgray"
+                android:scrollHorizontally="true" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="10公寓站"
+                android:textSize="20dp"
+                android:ems="1"
+                android:layout_marginRight="50dp"
+                android:background="@color/darkgray"
+                android:scrollHorizontally="true" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="材化楼站"
+                android:textSize="20dp"
+                android:ems="1"
+                android:layout_marginRight="50dp"
+                android:background="@color/darkgray"
+                android:scrollHorizontally="true" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="图书馆站"
+                android:textSize="20dp"
+                android:ems="1"
+                android:layout_marginRight="50dp"
+                android:background="@color/darkgray"
+                android:scrollHorizontally="true" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="61号楼站"
+                android:textSize="20dp"
+                android:ems="1"
+                android:layout_marginRight="50dp"
+                android:background="@color/darkgray"
+                android:scrollHorizontally="true" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="航海水声楼站"
+                android:textSize="20dp"
+                android:ems="1"
+                android:layout_marginRight="50dp"
+                android:background="@color/darkgray"
+                android:scrollHorizontally="true" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="能动楼站"
+                android:textSize="20dp"
+                android:ems="1"
+                android:layout_marginRight="50dp"
+                android:background="@color/darkgray"
+                android:scrollHorizontally="true" />
+        </LinearLayout>
+
+    </HorizontalScrollView>
+</LinearLayout>
